@@ -49,6 +49,8 @@ Next, run the following command to create a `conda` virtual environment that con
 
 ```bash
 $ conda env create -f environment.yml
+$ conda activate nlp-transformers
+$ pip install -U datasets # to get the latest version of the datasets library
 ```
 
 > Note: You'll need a GPU that supports NVIDIA's [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) to build the environment. Currently, this means you cannot build locally on Apple silicon 😢.
